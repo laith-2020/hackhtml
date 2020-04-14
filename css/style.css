@@ -1,0 +1,86 @@
+body{
+    background-color: gray;
+
+}
+header h1 {
+    text-align: center;
+     color:black;
+     padding-top: 90px;
+
+}
+#action1{
+    color: green;
+   
+}
+#action2{
+    color: green;
+   
+}
+#action3{
+    color: green;
+   
+}
+#action4{
+    text-align: center;
+   
+}
+
+article section img {
+    width: 500px;
+    align-ite: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/*************************************************************************/
+/***** the nav bar *****/
+.menu {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+
+    background: #7D7E7D; /* Old browsers */
+    background: -moz-linear-gradient(top, #7D7E7D 0%, #0E0E0E 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7D7E7D 0%, #0E0E0E 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        to bottom,
+        #7D7E7D 0%,
+        #0E0E0E 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr='#7D7E7D',
+            endColorstr='#0E0E0E',
+            GradientType=0
+        ); /* IE6-9 */
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+    box-shadow: -1px 15px 50px gray;
+    position: fixed;
+}
+.menu > ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+}
+.menu > ul > li {
+    font: 1.03em "Open Sans", Sans-serif;
+    float: left;
+}
+.menu-item a {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu-item:hover {
+    background-color: #FF0055;
+}
+
+#copy1{
+    text-align: center;
+
+}
