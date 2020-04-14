@@ -1,9 +1,9 @@
 'use strict'
-alert(" Atention This web site not for boyes ");
+alert(" Atention This web site not for Kids ");
 
 var age= prompt("what is your age");
 
-if( age >= 18 || age == 0 ){
+if( age >= 18){
     alert("Welcome To the Hackers Wep site");
 }
 else {
