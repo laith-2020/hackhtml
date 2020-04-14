@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 4px;  
+}
 body{
     background-color: gray;
 
@@ -6,7 +11,7 @@ header h1 {
     text-align: center;
      color:black;
      padding-top: 90px;
-
+     
 }
 #action1{
     color: green;
@@ -14,11 +19,11 @@ header h1 {
 }
 #action2{
     color: green;
-   
+  
 }
 #action3{
     color: green;
-   
+    
 }
 #action4{
     text-align: center;
@@ -28,11 +33,9 @@ header h1 {
 article section img {
     width: 500px;
     align-ite: center;
+    
 }
-* {
-    margin: 0;
-    padding: 0;
-}
+
 /*************************************************************************/
 /***** the nav bar *****/
 .menu {
@@ -84,3 +87,12 @@ article section img {
     text-align: center;
 
 }
+
+.botton{
+    padding-top: 50px;
+    text-align: center;
+    color:red;
+}
+
+
+    
