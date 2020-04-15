@@ -21,4 +21,3 @@ function closeWin() {
 function newfunc() {
     document.body.style.background = 'blue';
 }
-
