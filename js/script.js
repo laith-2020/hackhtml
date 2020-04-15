@@ -49,7 +49,7 @@ showresult();
 
 var showord = function () {
     //input
-    var ord = prompt('what would you like to choose , please write blackhat or whitehat');
+    var ord = prompt('what Would you like to choose , please write blackhat or whitehat');
     var item = '';
 
     // process
