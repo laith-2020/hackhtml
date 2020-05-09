@@ -1,49 +1,51 @@
 'use strict'
 
-alert(" Atention This web site not for Kids ");
+// confirm("Click Ok to Enter"); // this code if i want to add a confirm
 
-function enterweb() {
-    // input
-    var age = prompt("what is your age");
-    var adult;
-    //processing
-    if (age <= 18 && age != 0) {
-        window.location = "goodby.html";
-    }
-    else {
-        adult = 'nothing';
-
-    }
-    //output
-    return age;
-
-}
-enterweb();
-
-// confirm("Click Ok to Enter");
-
+// to close the window 
 function closeWin() {
     window.close();
 }
-
+// to change the background color
 function newfunc() {
     document.body.style.background = 'blue';
 }
 
 
+alert(" Atention This web site not for Kids ");
+
+function enterweb() {
+    // input
+    var age = prompt("what is your age");
+    //processing
+    if (age == 0) {
+        alert('You should enter your age');
+        window.location = "index.html";
+    }
+    else if (age <= 18 ) {
+        window.location = "goodby.html";
+    }
+    else {
+        alert('You are adult Welcome To our Hacker Web Site');
+    }
+    //output
+    return age;
+}
+enterweb();
+
+
 var showresult = function () {
     //input
     var order = prompt('enter your name');
-    var item;
-
     //processing
     if (order) {
         alert('welcome To The Web Site' + ' ' + order);
     } else {
-        alert('welcome');
+        alert('You should enter your Name');
+        window.location = "index.html";
     }
     //output
-    return item;
+    return order;
 }
 showresult();
 
@@ -57,22 +59,19 @@ var showord = function () {
         ord = prompt('please pick blackhat or whitehat');
     }
 
-    var numberOfOrder=prompt('how many would you like to choose');
+    var numberOfOrder = prompt('how many would you like to choose');
     console.log(numberOfOrder);
 
-    for (var i=0;i<numberOfOrder;i++) {
-        console.log('index',i);                
+    for (var i = 0; i < numberOfOrder; i++) {
+        console.log('index', i);
 
         if (ord === 'blackhat') {
-            item=item+'<img src="images/blackhat.jpg">';
+            item = item + '<img src="images/blackhat.jpg">';
 
         } else if (ord === 'whitehat') {
             item = item + '<img src="images/whitehat.jpg">';
         }
     }
-
     //output
     return item;
-
 }
-
